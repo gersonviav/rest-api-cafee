@@ -11,6 +11,6 @@ if (process.env.NODE_ENV === 'dev') {
 } else {
     //admin_cafe
     //XIYRHH6YO2tB79rJ
-    urlDB='mongodb+srv://admin_cafe:XIYRHH6YO2tB79rJ@cluster0-mmg6n.mongodb.net/cafe'
+    urlDB= process.env.MONGO_URI;
 }
 process.env.urlDB=urlDB;
