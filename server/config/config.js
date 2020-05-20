@@ -6,9 +6,11 @@ process.env.PORT = process.env.PORT || 3000;
 process.env.NODE_ENV=process.env.NODE_ENV || 'dev'
 //base de datos
 let urlDB;
-if (process.env.NODE_ENV === 'dev') {
-    urlDB = 'mongodb://localhost:27017/cafe'
-} else {
-    urlDB='mongodb+srv://admin_cafe:Ak@me159@cluster0-mmg6n.mongodb.net/cafe'
-}
+//if (process.env.NODE_ENV === 'dev') {
+//    urlDB = 'mongodb://localhost:27017/cafe'
+//} else {
+    //admin_cafe
+    //XIYRHH6YO2tB79rJ
+    urlDB='mongodb+srv://admin_cafe:XIYRHH6YO2tB79rJ@cluster0-mmg6n.mongodb.net/cafe'
+//}
 process.env.urlDB=urlDB;
